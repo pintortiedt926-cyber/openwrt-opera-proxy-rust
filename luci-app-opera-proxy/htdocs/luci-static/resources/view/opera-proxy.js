@@ -664,11 +664,11 @@ return view.extend({
 			]),
 			E('div', { 'class': 'cbi-section-descr' }, [
 				E('a', {
-					href: 'https://github.com/recrumptor/openwrt-opera-proxy-bin',
+					href: 'https://github.com/pintortiedt926-cyber/openwrt-opera-proxy-rust',
 					target: '_blank',
 					rel: 'noreferrer',
 					style: 'text-decoration:underline;color:var(--color-link,#2a6ebb)'
-				}, 'github.com/recrumptor/openwrt-opera-proxy-bin')
+				}, 'github.com/pintortiedt926-cyber/openwrt-opera-proxy-rust')
 			]),
 			E('div', { 'class': 'cbi-section-descr' },
 				'Manage several opera-proxy instances. Click a tab to switch between them; click ✎ to rename.'),

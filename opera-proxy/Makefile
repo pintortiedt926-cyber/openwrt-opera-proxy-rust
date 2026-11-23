@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=opera-proxy
-PKG_VERSION:=1.14.0
+PKG_VERSION:=1.32.0
 PKG_RELEASE:=1
 PKG_LICENSE:=MIT
 PKG_MAINTAINER:=Snawoot <vladislav-ex-gh@vm-0.com>
@@ -13,13 +13,21 @@ define Package/$(PKG_NAME)
     CATEGORY:=Network
     TITLE:=Opera Proxy client
     URL:=https://github.com/Snawoot/opera-proxy
-    ARCH:=mipsel_24kc
+endef
+
+define Package/$(PKG_NAME)/conffiles
+/etc/config/opera-proxy
 endef
 
 define Build/Configure
 endef
 
 define Build/Compile
+	if [ -n "$(OPERA_PROXY_BIN)" ] && [ -f "$(OPERA_PROXY_BIN)" ]; then \
+		$(INSTALL_DIR) ./files/usr/bin; \
+		$(CP) "$(OPERA_PROXY_BIN)" ./files/usr/bin/opera-proxy; \
+		chmod +x ./files/usr/bin/opera-proxy; \
+	fi
 endef
 
 define Package/$(PKG_NAME)/install

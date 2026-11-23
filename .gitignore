@@ -1,0 +1,11 @@
+# Rust build outputs & local packaging artifacts
+rust/opera-proxy/target/
+*.ipk
+*.apk
+!releases/**/*.ipk
+!releases/**/*.apk
+output-artifacts/
+sdk/
+sdk.archive
+scripts/__pycache__/
+*.pyc

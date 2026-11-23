@@ -1,0 +1,8 @@
+5ce208551c2ff1b65ea5524af1f4f4aa84d8eda86ee5e49d02c1fe321fa71e99  luci-app-opera-proxy_1.1-2_all.ipk
+c31f7472359bfc9f2b63f3c0f34abc2cdf20a40c9ecdbad06116d14ac1b4f329  luci-app-opera-proxy-1.1-r2-v25.12.apk
+86fdbafcc24acfde43ba3956d3755c38b5f5b93f40121bac4ab9c9e06cec23be  opera-proxy-1.32.0-aarch64_cortex-a53-v23.05.ipk
+d226c1c6549cc8176cec568b637ca570b539ff3ce21cb25f90f00c467e750cdb  opera-proxy-1.32.0-aarch64_cortex-a53-v24.10.ipk
+a750f80af5af7fb4a6efdbf5b17b4bbd025cea561c2cfee3d11d9c227034735f  opera-proxy-1.32.0-aarch64_cortex-a53-v25.12.apk
+a28040e5e3f1999983d698df47f7eb6250f827cbb7f5005a4636d6c12359b8dd  opera-proxy-1.32.0-mipsel_24kc-v23.05.ipk
+1d06582400f49703acc8d0408d3ba3edf1fe3b08913a898a63f9138a391f384a  opera-proxy-1.32.0-mipsel_24kc-v24.10.ipk
+aa39d72360cc7ac140a575820c93fb3a6f367c376f7f1e58d1f9bb11baf3bdd4  opera-proxy-1.32.0-mipsel_24kc-v25.12.apk
